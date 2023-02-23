@@ -6,10 +6,9 @@ import Register from './views/DisplayUser';
 import UserInfo from './views/Cookie';
 import './App.css';
 
-
-
 function App() {
   return (
+    
     <div className="container mt-5">
       <Routes>
         <Route path="/" element={<Login />} />
